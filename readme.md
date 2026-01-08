@@ -44,17 +44,31 @@ main focus of this app, should be helping with tracking points during a single p
 
 I've used basically the first part of this file as a prompt for some "vibecoding tools" for software developers.
 
-I'm rather surprised with the results, and I'm glad that I've checked more tool than first one, as my initial and expected disappointment after using this extended "prompt" for first try, was satisfied in at least one tool.
+I'm rather surprised with the results, and I'm glad that I've checked more tool than first one, as my initial and expected disappointment after using this extended "prompt" for first try, was satisfied in at least one tool right out of the box.
 
-I know about vibecoding tools like:
+likewise, I know about vibecoding tools like:
 
 * https://replit.com/
 * https://emergent.sh/
+* https://bolt.new/ (StackBlitz)
 * https://lovable.dev/
 
-### best results so far /12026-01-09/
+on _replit.com_ I've started with a more simple prompt:
 
-1. https://points-to-ride-tracker.lovable.app/
+> I need a simple web application to track victory points while playing the Ticket to Ride board game with my family.
 
-* looks great, and that tool suggested that "undo" button itself
-* but no good way to get source without accessing with github...
+but apparently _"a simple web app"_ means a full stack template, with `36MB` of DB and whole CRUD backend. thus, with that disappointment, I've developed that more precise prompt on top of this file. unfortunately, I was already over half of my free tokens, thus agent is still working. but, whatever was done already, agent still used DB and backend, which even they said that those components should not be there at the beginning.
+
+then I've tried that long prompt with all three other tools simultaneously - in order above.
+
+on _emergent.sh_ theirs agent start with asking questions about visual style - rather some not important thing for me, but I've assumed that this is a good sing. progress looks good on provided screenshots, unfortunately given free tokens run out before I've got any access to results.
+
+on _bolt.new_ (StackBlitz) the project structure looked promising, however after two tries for fixing a "blank page", I've again run out of tokens again... fortunately, I can easily access sources and download them as single zip file.
+
+on _lovable.dev_ I've got very good results very fast. it's agent also proposed an `Undo` button after the first iteration. and UI looks very nice and useful. there is access to every source file, however, even agent couldn't provide a way to get code without joining with GitHub.
+
+### best results so far
+
+> as on 12026-01-09
+
+1. https://points-to-ride-tracker.lovable.app/ (no sources)
