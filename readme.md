@@ -37,3 +37,24 @@ main focus of this app, should be helping with tracking points during a single p
     * to see history of points for that player
     * to navigate to previous and next players
     * to reset the game with a prompt, going to the setup step
+
+----
+
+## it was vibecoded 😕
+
+I've used basically the first part of this file as a prompt for some "vibecoding tools" for software developers.
+
+I'm rather surprised with the results, and I'm glad that I've checked more tool than first one, as my initial and expected disappointment after using this extended "prompt" for first try, was satisfied in at least one tool.
+
+I know about vibecoding tools like:
+
+* https://replit.com/
+* https://emergent.sh/
+* https://lovable.dev/
+
+### best results so far /12026-01-09/
+
+1. https://points-to-ride-tracker.lovable.app/
+
+* looks great, and that tool suggested that "undo" button itself
+* but no good way to get source without accessing with github...
