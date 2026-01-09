@@ -59,7 +59,7 @@ on _replit.com_ I've started with a more simple prompt:
 
 but apparently _"a simple web app"_ means a full stack template, with `36MB` of DB and whole CRUD backend. thus, with that disappointment, I've developed that more precise prompt on top of this file. unfortunately, I was already over half of my free tokens, thus agent is still working. but, whatever was done already, agent still used DB and backend, which even they said that those components should not be there at the beginning.
 
-then I've tried that long prompt with all three other tools simultaneously - in order above.
+then, I've tried that long prompt with all three other tools simultaneously - in order above.
 
 on _emergent.sh_ theirs agent start with asking questions about visual style - rather some not important thing for me, but I've assumed that this is a good sing. progress looks good on provided screenshots, unfortunately given free tokens run out before I've got any access to results.
 
@@ -67,8 +67,11 @@ on _bolt.new_ (StackBlitz) the project structure looked promising, however after
 
 on _lovable.dev_ I've got very good results very fast. it's agent also proposed an `Undo` button after the first iteration. and UI looks very nice and useful. there is access to every source file, however, even agent couldn't provide a way to get code without joining with GitHub.
 
+finally, with another set of free trials tokens, I've gone back to _replit.com_ with its full stack project. after a few requests to remove DB code, it reimplemented storage to within JS runtime, but deployments somehow still required database. fortunately, access to code is very easy, and I got my sources as a single zip file.
+
 ### best results so far
 
 > as on 12026-01-09
 
 1. https://points-to-ride-tracker.lovable.app/ (no sources)
+2. https://ticket-tally--dominjaniec.replit.app (js-storage)
