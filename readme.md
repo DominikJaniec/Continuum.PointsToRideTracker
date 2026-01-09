@@ -69,9 +69,12 @@ on _lovable.dev_ I've got very good results very fast. it's agent also proposed 
 
 finally, with another set of free trials tokens, I've gone back to _replit.com_ with its full stack project. after a few requests to remove DB code, it reimplemented storage to within JS runtime, but deployments somehow still required database. fortunately, access to code is very easy, and I got my sources as a single zip file.
 
+also, with _bolt.new_ and after more request for fixing blank page, agent suggested browser's memory clean up, which I've solved loading that project in MS Edge instead of Firefox, and with some patience, app finally loaded. UI is not that bad and I could easily download sources.
+
 ### best results so far
 
 > as on 12026-01-09
 
 1. https://points-to-ride-tracker.lovable.app/ (no sources)
 2. https://ticket-tally--dominjaniec.replit.app (js-storage)
+3. https://ticket-to-ride-victo-69jm.bolt.host (local-storage)
